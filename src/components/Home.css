@@ -1,0 +1,86 @@
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.coder-img {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.info {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 40%;
+}
+
+.top-word {
+  color: rgb(49, 100, 229);
+  font-weight: 600;
+}
+
+.title h1 {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.938);
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.title h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.404);
+}
+
+.buttons {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 1px;
+  font-size: 16px;
+}
+
+.aboutme {
+  background-color: rgba(255, 255, 255, 0.404);
+  color: rgba(255, 255, 255, 0.836);
+}
+
+.portfolio {
+  background-color: rgb(49, 100, 229);
+  color: white;
+  transition: background-color 0.5s;
+}
+
+.icons svg {
+  width: 30px;
+  height: 30px;
+  transition: fill 1s;
+  margin-right: 10px;
+}
+.icons svg:hover {
+  fill: rgb(49, 100, 229);
+}
+
+.avatar {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}

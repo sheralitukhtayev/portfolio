@@ -1,0 +1,31 @@
+.navbar {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-item {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.nav-item li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgb(202, 202, 202);
+  font-weight: 400;
+  transition: color 1s;
+}
+
+.nav-item li a:hover {
+  color: rgb(49, 100, 229);
+}
