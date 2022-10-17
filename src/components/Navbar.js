@@ -6,10 +6,12 @@ function Navbar() {
     <div>
       <div className="home">
         <div id="navbar" className="navbar">
-          <img
-            src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-coloricon-1/21/47_1-512.png"
-            alt=""
-          />
+          <a href="/">
+            <img
+              src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-coloricon-1/21/47_1-512.png"
+              alt=""
+            />
+          </a>
           <ul className="nav-item" id="nav-item">
             <li>
               <a href="/">Home</a>

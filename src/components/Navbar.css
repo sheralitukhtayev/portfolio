@@ -29,3 +29,17 @@ img {
 .nav-item li a:hover {
   color: rgb(49, 100, 229);
 }
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .nav-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+}

@@ -80,7 +80,37 @@
 }
 
 .avatar {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 700px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .avatar {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    width: 80%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .buttons {
+    /* width: 300px; */
+    align-items: center;
+    margin: 20px auto;
+  }
+
+  .coder-img {
+    width: 400px;
+    height: 300px;
+  }
 }

@@ -1,0 +1,137 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.projects-title {
+  margin: 50px auto;
+  align-items: center;
+  text-align: center;
+}
+
+.projects-title h1 {
+  color: rgb(202, 202, 202);
+  font-size: 45px;
+}
+
+.projects-title p {
+  font-size: 30px;
+  color: rgb(49, 100, 229);
+  margin-top: 20px;
+}
+
+.project-title a {
+  color: rgb(202, 202, 202);
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.project:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.project img {
+  width: 600px;
+  height: 350px;
+}
+
+.project-title {
+  width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+.project-title h1 {
+  color: rgb(202, 202, 202);
+}
+
+.project-title p {
+  color: rgb(49, 100, 229);
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.project-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-buttons button {
+  padding: 15px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  color: rgb(202, 202, 202);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.project-buttons svg {
+  margin-left: 20px;
+  width: 20px;
+}
+
+.source {
+  margin-right: 30px;
+  background-color: rgb(11, 11, 11);
+}
+
+.demo {
+  background-color: rgb(49, 100, 229);
+}
+
+@media (max-width: 700px) {
+  .projects-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+  }
+
+  .project:nth-child(even) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project img {
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1100px) {
+  .projects-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: row;
+    margin: 100px auto;
+  }
+
+  .project:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .project img {
+    width: 50%;
+    height: 250px;
+    margin: 0 auto;
+  }
+}
