@@ -7,7 +7,7 @@ function Home() {
       <div className="info" id="info">
         <img
           className="avatar"
-          src="https://www.instagram.com/p/CkQM40Jr2F-/?utm_source=ig_web_copy_link"
+          src="https://avatars.githubusercontent.com/u/95168693?v=4"
           alt=""
         />
         <div className="title" id="title">
